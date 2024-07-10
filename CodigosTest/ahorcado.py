@@ -22,3 +22,15 @@ palabraAdivinar = palabraAdivinar.upper() # Se convierte la palabra a mayusculas
 palabraGuiones = []
 for i in range(len(palabraAdivinar)):
     palabraGuiones.append("_")
+
+print("Vamos a jugar al ahorcado, adivina la palabra!!")
+letra = input("Ingresa una letra\n")
+
+letra = letra.upper() # Se convierte la letra a mayusculas
+
+
+for index, letraPalabra in enumerate(palabraAdivinar):
+    if letra == letraPalabra:
+        palabraGuiones[index] = letra
+
+print(" ".join(palabraGuiones))
