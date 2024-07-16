@@ -11,7 +11,6 @@ print("Hola " + "Sergio")
 print("Hola " * 5)
 
 ### Assignment Operators
-
 print(3 > 4)
 print(3 < 4)
 print(3 >= 4)
@@ -20,3 +19,8 @@ print(3 > 4)
 print(3 == 4)
 print(3 != 4)
 
+
+### Assignment Operators
+print("Hola" and "Sergio")
+print("Hola" or "Sergio")
+print("Hola" not in "Sergio")
