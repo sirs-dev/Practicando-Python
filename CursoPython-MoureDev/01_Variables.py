@@ -119,12 +119,31 @@ remainder = num_two % num_one
 print(remainder)
 
 # Calculate num_one to the power of num_two and assign the value to a variable exp
-
+exp = num_one ** num_two
+print(exp)
 
 # Find floor division of num_one by num_two and assign the value to a variable floor_division
+floor_division = num_one // num_two
+print(floor_division)
+
 # The radius of a circle is 30 meters.
+radius_circle = 30
+
 # Calculate the area of a circle and assign the value to a variable name of area_of_circle
+area_of_circle = 3.14 * (radius_circle**2)
+print(area_of_circle)
+
 # Calculate the circumference of a circle and assign the value to a variable name of circum_of_circle
+circum_of_circle = 2 * 3.14 * radius_circle
+
 # Take radius as user input and calculate the area.
+radius = input("Ingresa el radio del circulo")
+area = 3.14 * (radius**2)
+
 # Use the built-in input function to get first name, last name, country and age from a user and store the value to their corresponding variable names
+name = input("Ingresa tu nombre")
+last_name = input("Ingresa tu apellido")
+country = input("Ingresa tu pais")
+age = input("Ingresa tu edad")
+
 # Run help('keywords') in Python shell or in your file to check for the Python reserved words or keywords
