@@ -72,7 +72,28 @@ circunference = 2 * 3,14 * radius
 print(f"El area del circulo es {area} y la circunferencia es {circunference}")
 
 ## Calculate the slope, x-intercept and y-intercept of y = 2x -2
+pendiente = 2
+interseccion_y = -2
+interseccion_x = -interseccion_y / pendiente
+
+print(f"Pendiente (m): {pendiente}")
+print(f"Intersección con el eje x: {interseccion_x}")
+print(f"Intersección con el eje y: {interseccion_y}")
+
+
 ## Slope is (m = y2-y1/x2-x1). Find the slope and Euclidean distance between point (2, 2) and point (6,10)
+import math
+
+x1, y1 = 2, 2
+x2, y2 = 6, 10
+
+m = (y2 - y1) / (x2 - x1)
+
+d = math.sqrt((x2 - x1)**2 + (y2 - y1)**2)
+
+print(f"La pendiente es: {m}")
+print(f"La distancia euclidiana es: {d}")
+
 ## Compare the slopes in tasks 8 and 9.
 ## Calculate the value of y (y = x^2 + 6x + 9). Try to use different x values and figure out at what x value y is going to be 0.
 ## Find the length of 'python' and 'dragon' and make a falsy comparison statement.
