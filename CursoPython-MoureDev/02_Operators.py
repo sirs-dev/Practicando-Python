@@ -95,6 +95,12 @@ print(f"La pendiente es: {m}")
 print(f"La distancia euclidiana es: {d}")
 
 ## Compare the slopes in tasks 8 and 9.
+if(d == interseccion_x):
+    print("Son iguales")
+else:
+    print("No son iguales")
+
+
 ## Calculate the value of y (y = x^2 + 6x + 9). Try to use different x values and figure out at what x value y is going to be 0.
 ## Find the length of 'python' and 'dragon' and make a falsy comparison statement.
 ## Use and operator to check if 'on' is found in both 'python' and 'dragon'
