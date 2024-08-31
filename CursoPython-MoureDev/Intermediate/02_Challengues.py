@@ -23,7 +23,6 @@ def fizzbuzz():
             print(item)
 
 
-fizzbuzz()
 
 
 # 2.
@@ -40,7 +39,7 @@ def anagrama(firstword, secondword):
     return sorted(firstword.lower()) == sorted(secondword.lower())
 
     
-print(anagrama("iman", "mani"))
+
 
 # 3.
 # Escribe un programa que imprima los 50 primeros números de la sucesión
@@ -60,7 +59,7 @@ def fibonacci():
         count += 1
 
 
-fibonacci()
+
 
 # 4.
 # Escribe un programa que se encargue de comprobar si un número es o no primo.
@@ -74,3 +73,19 @@ def is_prime():
             return False
         elif num == 2:
             return True
+
+# 5 
+# Crea un programa que invierta el orden de una cadena de texto sin usar funciones propias del lenguaje
+# que lo haga de forma automatica con logica desarrollada.
+# Si le pasamos "Hola mundo" nos deberia devolver "odnum aloH"
+
+
+def word_reversed(word):
+    reversed_word = ""
+    for index in range(len(word)-1, -1, -1):
+        reversed_word += word[index]
+    print(reversed_word)
+
+
+
+word_reversed("Hola mundo")
